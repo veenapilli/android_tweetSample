@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LetsGoTwee</string>
+    <string name="sparta_name">Hello from Twee :)</string>
+    <string name="user_name">Name:</string>
+    <string name="user_name_hint">Enter your name</string>
+    <string name="user_pass">Password:</string>
+    <string name="user_pass_hint">Enter password</string>
+    <string name="user_login">Login</string>
+    <string name="empty_list">No Tweets</string>
+    <string name="list_largeText">User Name</string>
+    <string name="list_mediumText">User Tweet</string>
+    <string name="list_smallText">Today\'s date</string>
+    <string name="detail_largeText">User Name</string>
+    <string name="detail_mediumText">User Tweet\n a\n b</string>
+    <string name="detail_smallText">Today\'s date</string>
+</resources>

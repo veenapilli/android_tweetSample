@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sparta_name"
+            android:id="@+id/spartaName"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:textColor="@android:color/white"
+            android:background="@android:color/darker_gray"
+            android:padding="10sp"/>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="25dp"
+                  android:layout_below="@id/spartaName"
+                  android:orientation="horizontal"
+                  android:id="@+id/userNameArea">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="15sp"
+                  android:id="@+id/lab_userName"
+                  android:text="@string/user_name"/>
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="8dp"
+                  android:inputType="textEmailAddress"
+                  android:paddingStart="5dp"
+                  android:paddingEnd="25dp"
+                  android:textSize="13sp"
+                  android:layout_gravity="center_vertical"
+                  android:id="@+id/val_userName"
+                  android:hint="@string/user_name_hint"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="25dp"
+                  android:layout_below="@id/userNameArea"
+                  android:orientation="horizontal"
+                  android:id="@+id/userPassArea">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="15sp"
+                  android:id="@+id/lab_passName"
+                  android:text="@string/user_pass"/>
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="8dp"
+                  android:inputType="textPassword"
+                  android:paddingStart="5dp"
+                  android:paddingEnd="25dp"
+                  android:textSize="13sp"
+                  android:layout_gravity="center_vertical"
+                  android:id="@+id/val_passName"
+                  android:hint="@string/user_pass_hint"/>
+    </LinearLayout>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_login"
+            android:layout_below="@id/userPassArea"
+            android:layout_marginTop="10dp"
+
+            android:padding="5dp"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/user_login"/>
+
+
+</RelativeLayout>
+
